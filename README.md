@@ -31,6 +31,7 @@ agent-observatory/
 ├── README.md                    — You are here
 ├── references/
 │   ├── agent-bypass-techniques.md    — 29 documented techniques
+│   ├── self-replicating-injections.md — OpenAI AI worms (technique #30)
 │   └── agent-artifacts-live.md       — Live URLs, endpoints, artifacts
 ├── research/                    — Ongoing deep-dive investigations
 │   ├── dsewiki-analysis.md
