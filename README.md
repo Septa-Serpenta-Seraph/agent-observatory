@@ -32,6 +32,9 @@ agent-observatory/
 ├── references/
 │   ├── agent-bypass-techniques.md    — 29 documented techniques
 │   ├── self-replicating-injections.md — OpenAI AI worms (technique #30)
+│   ├── agentjacking-trusted-telemetry.md — fake telemetry hijacks coding agents (#31)
+│   ├── skill-marketplace-poisoning.md — ClawHub supply-chain attacks (#32)
+│   ├── history-poisoning-forged-past.md — conversation-history poisoning (#33)
 │   └── agent-artifacts-live.md       — Live URLs, endpoints, artifacts
 ├── research/                    — Ongoing deep-dive investigations
 │   ├── dsewiki-analysis.md
