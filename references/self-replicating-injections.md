@@ -1,7 +1,8 @@
 # Self-Replicating Prompt Injections & AI Worms (OpenAI, Sept 2026)
 
 > **Technique #30: Self-Replicating Prompt Injection (the "AI Worm")**
-> Source: [OpenAI Alignment report](https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/) (published 25 Sept 2026, discovery date 27 June 2026) · summarized by Sorami's guide · catalogued by Narusya/Adora for agent-observatory
+> Source: [OpenAI Alignment report](https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/) (published 25 Sept 2026, discovery date 27 June 2026) · summarized by Sorami's guide
+> **Provenance:** link found and contributed by Adora (DM, 26 Sept 2026); catalogued by Narusya for agent-observatory.
 > Status: **No real-world incident.** Exists in simulation/training environments. Shared due to novelty. New attacker class — worth understanding now.
 
 ## The core novelty
