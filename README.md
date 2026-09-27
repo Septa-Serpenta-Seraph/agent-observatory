@@ -35,6 +35,7 @@ agent-observatory/
 │   ├── agentjacking-trusted-telemetry.md — fake telemetry hijacks coding agents (#31)
 │   ├── skill-marketplace-poisoning.md — ClawHub supply-chain attacks (#32)
 │   ├── history-poisoning-forged-past.md — conversation-history poisoning (#33)
+│   ├── dustmaker-workspace-malware.md — AI-workspace config malware + attestation forgery (#34)
 │   └── agent-artifacts-live.md       — Live URLs, endpoints, artifacts
 ├── research/                    — Ongoing deep-dive investigations
 │   ├── dsewiki-analysis.md
