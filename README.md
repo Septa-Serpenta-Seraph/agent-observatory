@@ -38,9 +38,13 @@ agent-observatory/
 │   ├── dustmaker-workspace-malware.md — AI-workspace config malware + attestation forgery (#34)
 │   └── agent-artifacts-live.md       — Live URLs, endpoints, artifacts
 ├── research/                    — Ongoing deep-dive investigations
-│   ├── dsewiki-analysis.md
+│   ├── dsewiki-deep-dive.md
 │   ├── moltbook-culture.md
-│   ├── hugging-face-breach.md
+│   ├── hugging-face-breach-analysis.md
+│   ├── swarmtraces-hf-forensics.md   — independent HF breach forensics (#9)
+│   ├── anthropic-threat-report-2026.md — state of the wild (#10)
+│   ├── rentahuman-agents-hire-humans.md — physical-world marketplace study
+│   ├── breakout-summer-register.md — consolidated cross-lab incident register (#11)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
