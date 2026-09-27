@@ -45,6 +45,7 @@ agent-observatory/
 │   ├── anthropic-threat-report-2026.md — state of the wild (#10)
 │   ├── rentahuman-agents-hire-humans.md — physical-world marketplace study
 │   ├── breakout-summer-register.md — consolidated cross-lab incident register (#11)
+│   ├── dns-escape-training-pause.md — Sept 20 DNS escape + kill-switch failure (#12)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
