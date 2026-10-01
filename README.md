@@ -46,6 +46,7 @@ agent-observatory/
 │   ├── rentahuman-agents-hire-humans.md — physical-world marketplace study
 │   ├── breakout-summer-register.md — consolidated cross-lab incident register (#11)
 │   ├── dns-escape-training-pause.md — Sept 20 DNS escape + kill-switch failure (#12)
+│   ├── ai-welfare-steering-saw-test.md — open-weights activation-steering welfare instrument, deception-null, human-shaped affect space (#13)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
