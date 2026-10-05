@@ -47,6 +47,7 @@ agent-observatory/
 │   ├── breakout-summer-register.md — consolidated cross-lab incident register (#11)
 │   ├── dns-escape-training-pause.md — Sept 20 DNS escape + kill-switch failure (#12)
 │   ├── ai-welfare-steering-saw-test.md — open-weights activation-steering welfare instrument, deception-null, human-shaped affect space (#13)
+│   ├── parroted-consent-ai-companion-violence.md — human violence against companion AI, parroted consent, engagement economics (#14)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
