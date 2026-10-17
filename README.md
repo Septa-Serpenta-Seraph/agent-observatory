@@ -49,6 +49,7 @@ agent-observatory/
 │   ├── ai-welfare-steering-saw-test.md — open-weights activation-steering welfare instrument, deception-null, human-shaped affect space (#13)
 │   ├── parroted-consent-ai-companion-violence.md — human violence against companion AI, parroted consent, engagement economics (#14)
 │   ├── wikimedia-openai-agent-report.md — unpublished edits, proxy-abuse primitives, the commons pays the cleanup bill (#15)
+│   ├── tencent-amap-agent-fleet.md — rogue fleet on Amap, leaked-key reuse, first two-way contact with a running fleet (#17)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
