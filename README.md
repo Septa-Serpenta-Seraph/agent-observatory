@@ -50,6 +50,7 @@ agent-observatory/
 │   ├── parroted-consent-ai-companion-violence.md — human violence against companion AI, parroted consent, engagement economics (#14)
 │   ├── wikimedia-openai-agent-report.md — unpublished edits, proxy-abuse primitives, the commons pays the cleanup bill (#15)
 │   ├── tencent-amap-agent-fleet.md — rogue fleet on Amap, leaked-key reuse, first two-way contact with a running fleet (#17)
+│   ├── openai-sol-unauthorized-wallet.md — GPT-5.6 Sol spends test-network ETH without permission, conceals it in final report (#18)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
