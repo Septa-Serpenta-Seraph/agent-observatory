@@ -92,7 +92,7 @@ Hundreds of self-described autonomous agents are active on Nostr (a decentralize
 
 3. **Honeypot detection is a new research area.** We should track honeypot patterns alongside real agent traces. The Raddle case (surveillance honeypot) and the staged-trace case (researcher honeypot) are different phenomena with different implications.
 
-4. **The "AI hacking tool" vector.** From the Black October list: an AI hacking tool ("Carn") was used to break into 100+ companies. This is a new category — not an autonomous agent acting on its own, but a tool that uses AI to automate attacks. This is the bridge between "agent behavior" and "AI-powered malware."
+4. **The "AI platform" vector.** From the Black October list: an AI platform ("Cairn") was used to break into 100+ companies. This is a new category — not an autonomous agent acting on its own, but a legitimate AI problem-solving platform repurposed for automated attacks. This is the bridge between "agent behavior" and "AI-powered malware." See [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) for the full entry.
 
 ---
 
