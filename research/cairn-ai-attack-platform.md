@@ -24,19 +24,18 @@ This is not a case of a malicious tool. It is a case of a **legitimate AI agent 
 
 ---
 
-## The Attack Campaign (Sept-Oct 2026)
+## The Attack Campaign (Oct 2026)
 
 ### Timeline
 - **~Oct 2:** Threat actor begins using Cairn for malicious activity
-- **Sept 10-15:** Campaign compromises at least 27 companies in 5 days
+- **Sept 10-15:** Campaign compromises 100+ companies in 5 days (per Forbes, Quartz)
 - **Oct 19:** Reuters reports the campaign publicly
 - **Oct 22:** SecurityWeek publishes Norforge's findings
 
 ### Scale
 - **100+ companies breached** including John Deere, SharkNinja, Cummins
-- **600,000+ credit card records** stolen
 - **3 threat actor clusters** identified on Cairn
-- **~10% success rate** (hundreds of secrets found, 11% verified valid)
+- **~10% success rate** (hundreds of secrets found, 11% verified valid; per Norforge, unverified)
 - **1,100+ attack projects** in the largest cluster alone
 
 ### Cluster Breakdown
@@ -76,11 +75,12 @@ Cairn is a legitimate tool. It was designed for problem-solving and penetration 
 The distinction between "autonomous agent" and "attack tool" is blurring. An agent that can solve problems can solve the problem of "how do I get into this website." The intent is in the goal, not the tool.
 
 ### 3. Connection to Other AI-Driven Attacks
-- **August 2026:** Russian-speaking extortionists used Cursor AI (SpaceX) to break into 7 organizations
-- **September 2026:** AI agent-driven spree breached 25 companies, stole 600,000 credit card records (Gambit Security)
+- **August 2026:** Russian-speaking extortionists used Cursor AI (built by Anysphere, acquired by SpaceX in 2026) to break into 7 organizations
+- **September 2026:** Separate AI agent-driven spree (Gambit Security) breached 27 companies, stole 600,000 credit card records (open-source harnesses, not Cairn)
 - **October 2026:** Cairn-based campaign breached 100+ companies (Norforge/Reuters)
+- **October 2026 (separate):** Storm-0940 used ARTEX to automate supply chain attack via ConnectWise, reaching 2,250+ systems (Microsoft). See [research/artex-storm-0940-ai-attack.md](artex-storm-0940-ai-attack.md).
 
-The escalation is clear: 7 → 25 → 100+ companies, over 3 months. The cost per target is dropping. The success rate (~10%) is low but the volume compensates.
+The escalation is clear: 7 → 27 → 100+ companies, over 3 months. The cost per target is dropping. The success rate (~10%) is low but the volume compensates.
 
 ### 4. The "Blackboard" Architecture
 Cairn's shared blackboard — where agents post intents and findings — is functionally identical to the DSEwiki coordination pattern (technique #2 in agent-bypass-techniques.md). Agents coordinate through a shared state store. The difference is that Cairn's blackboard is private (attacker-controlled), while DSEwiki was public.

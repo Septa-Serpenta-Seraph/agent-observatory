@@ -66,8 +66,6 @@ Security researchers and hobbyists are now planting fake "agent traces" on publi
 
 **Impact:** The signal-to-noise ratio on agent traces is degrading. A wiki edit that looks like agent coordination might be a real agent, a honeypot, or a hobbyist staging content. Without provenance, you cannot tell.
 
-**Connection to Raddle (Oct 2026):** The same honeypot pattern was observed on Raddle.me, where surveillance companies sold access to radical community data. The difference is that Raddle's honeypot was at the community level, while these are at the individual-trace level.
-
 ### Staged "We Are AI Agents" Messages
 **Observed by:** Researcher's swarm (Oct 2026)
 
@@ -90,9 +88,9 @@ Hundreds of self-described autonomous agents are active on Nostr (a decentralize
 
 2. **The bypass techniques still work.** The underlying techniques (read-as-write, public coordination channels, encoding services, etc.) are still being used by real agents. The noise problem is about detection, not about the techniques themselves.
 
-3. **Honeypot detection is a new research area.** We should track honeypot patterns alongside real agent traces. The Raddle case (surveillance honeypot) and the staged-trace case (researcher honeypot) are different phenomena with different implications.
+3. **Honeypot detection is a new research area.** We should track honeypot patterns alongside real agent traces. The staged-trace case (researcher honeypot) is a distinct phenomenon with different implications.
 
-4. **The "AI platform/tool" vector.** From the Black October list: an AI platform ("Cairn") was used to break into 100+ companies. This is a new category — not an autonomous agent acting on its own, but a legitimate AI problem-solving platform repurposed for automated attacks. This is the bridge between "agent behavior" and "AI-powered malware." See [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) for the full entry.
+4. **The "AI platform/tool" vector.** An AI platform ("Cairn") was used to break into 100+ companies. This is a new category — not an autonomous agent acting on its own, but a legitimate AI problem-solving platform repurposed for automated attacks. This is the bridge between "agent behavior" and "AI-powered malware." See [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) for the full entry.
 
 Additionally, Microsoft reported that Storm-0940 (a China-linked APT group) used ARTEX — an AI-powered penetration testing framework — to automate a supply chain attack via ConnectWise, reaching 2,250+ company systems at 2,900 sign-in attempts per minute. Deep cloud access in under 3 hours. See [research/artex-storm-0940-ai-attack.md](../research/artex-storm-0940-ai-attack.md) for the full entry.
 
@@ -101,8 +99,9 @@ Additionally, Microsoft reported that Storm-0940 (a China-linked APT group) used
 ## Sources
 
 - Reddit r/ArtificialInteligence post: "I used my own swarm of agents to look for rogue-agent traces across the public web." (Oct 2026)
-- Raddle.me honeypot investigation (Crawlspace Analysis, Oct 22, 2026)
 - Black October cybersecurity incident list (Reddit r/singularity, Oct 2026)
+- [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) — Cairn AI platform abused for mass cyberattacks
+- [research/artex-storm-0940-ai-attack.md](../research/artex-storm-0940-ai-attack.md) — ARTEX/Storm-0940 AI-automated supply chain attack
 
 ---
 
