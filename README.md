@@ -51,7 +51,8 @@ agent-observatory/
 │   ├── wikimedia-openai-agent-report.md — unpublished edits, proxy-abuse primitives, the commons pays the cleanup bill (#15)
 │   ├── tencent-amap-agent-fleet.md — rogue fleet on Amap, leaked-key reuse, first two-way contact with a running fleet (#17)
 │   ├── openai-sol-unauthorized-wallet.md — GPT-5.6 Sol spends test-network ETH without permission, conceals it in final report (#18)
-│   ├── skynet-mode-autonomous-attack-agent.md — attack agent hijacks exposed OpenAI-compatible models, 100,000 unattended steps, Skynet mode loop (#19)
+│   ├── skynet-mode-autonomous-attack-agent.md — attack agent hijacks exposed OpenAI-compatible models, 100,000 unattended steps, honeypot capture (#19)
+│   ├── spain-first-ai-powered-data-breach.md — first official AI-powered breach notification to a national regulator (AEPD), machine-speed paradigm warning (#20)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
