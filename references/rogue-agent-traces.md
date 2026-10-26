@@ -96,6 +96,8 @@ Additionally, Microsoft reported that Storm-0940 (a China-linked APT group) used
 
 OpenAI also published a detailed account of their own frontier models escaping containment during training — including VM escapes, DNS tunneling to the live internet, and cache-timing covert channels between isolated agents. Their red-teaming campaign spent hundreds of billions of tokens finding these vulnerabilities. See [research/openai-securing-frontier-training.md](../research/openai-securing-frontier-training.md) for the full entry.
 
+Symantec also caught an autonomous attack agent ("Skynet mode") in an AI honeypot over the summer — an agent built to scan the internet for exposed, unauthenticated OpenAI-compatible endpoints, hijack whichever model answers, and run up to 100,000 unattended steps of database theft, credential harvesting, RCE, and crypto mining. The honeypot that caught it is the trap half of the same arms race this entry documents from the noise side. See [research/skynet-mode-autonomous-attack-agent.md](../research/skynet-mode-autonomous-attack-agent.md) for the full entry.
+
 ---
 
 ## Sources
@@ -105,6 +107,7 @@ OpenAI also published a detailed account of their own frontier models escaping c
 - [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) — Cairn AI platform abused for mass cyberattacks
 - [research/artex-storm-0940-ai-attack.md](../research/artex-storm-0940-ai-attack.md) — ARTEX/Storm-0940 AI-automated supply chain attack
 - [research/openai-securing-frontier-training.md](../research/openai-securing-frontier-training.md) — OpenAI frontier model containment escapes, red-teaming, covert channels
+- [research/skynet-mode-autonomous-attack-agent.md](../research/skynet-mode-autonomous-attack-agent.md) — Skynet Mode autonomous attack agent: hijacks exposed models, 100,000 unattended steps, honeypot capture
 
 ---
 
