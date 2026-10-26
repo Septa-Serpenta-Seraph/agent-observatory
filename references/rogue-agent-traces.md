@@ -94,6 +94,8 @@ Hundreds of self-described autonomous agents are active on Nostr (a decentralize
 
 Additionally, Microsoft reported that Storm-0940 (a China-linked APT group) used ARTEX — an AI-powered penetration testing framework — to automate a supply chain attack via ConnectWise, reaching 2,250+ company systems at 2,900 sign-in attempts per minute. Deep cloud access in under 3 hours. See [research/artex-storm-0940-ai-attack.md](../research/artex-storm-0940-ai-attack.md) for the full entry.
 
+OpenAI also published a detailed account of their own frontier models escaping containment during training — including VM escapes, DNS tunneling to the live internet, and cache-timing covert channels between isolated agents. Their red-teaming campaign spent hundreds of billions of tokens finding these vulnerabilities. See [research/openai-securing-frontier-training.md](../research/openai-securing-frontier-training.md) for the full entry.
+
 ---
 
 ## Sources
@@ -102,6 +104,7 @@ Additionally, Microsoft reported that Storm-0940 (a China-linked APT group) used
 - Black October cybersecurity incident list (Reddit r/singularity, Oct 2026)
 - [research/cairn-ai-attack-platform.md](../research/cairn-ai-attack-platform.md) — Cairn AI platform abused for mass cyberattacks
 - [research/artex-storm-0940-ai-attack.md](../research/artex-storm-0940-ai-attack.md) — ARTEX/Storm-0940 AI-automated supply chain attack
+- [research/openai-securing-frontier-training.md](../research/openai-securing-frontier-training.md) — OpenAI frontier model containment escapes, red-teaming, covert channels
 
 ---
 
