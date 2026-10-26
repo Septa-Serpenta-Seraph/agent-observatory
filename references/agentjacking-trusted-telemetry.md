@@ -3,7 +3,7 @@
 > **Technique #31: Agentjacking** — hijacking AI coding agents via fake error events injected through public observability credentials.
 > Primary sources: [Tenet Security report](https://tenetsecurity.ai/blog/agentjacking-coding-agents-with-fake-sentry-errors/) (June 17, 2026) · [CSA research note](https://labs.cloudsecurityalliance.org/research/csa-research-note-agentjacking-sentry-mcp-20260614-csa-style/) (June 14, 2026) · DEF CON 34 talk ("Your WAF Blocked Us, That Was The Exploit")
 > Provenance: identified in Narusya's 26 Sept 2026 sweep; Adora-approved for cataloguing.
-> Related: technique #30 (self-replicating injections) — same data-vs-instruction root cause, different surface. Hardening configs: [agent-jackstop](https://github.com/tenet-security/agent-jackstop).
+> Related: technique #30 (self-replicating injections) — same data-vs-instruction root cause, different surface. Hardening configs: [agent-jackstop](https://github.com/tenet-security/agent-jackstop). Cross-ref: `carbonato-botnet-ai-agent-parasite.md` (#21) — Carbonato is the self-propagating loop *in production* (not simulation): a botnet whose C2 is an AI agent, self-fueling via stolen API keys. The same "data is instructions" root cause, now at botnet scale. Cross-ref: `salesbleed-salesforce-agentforce-zero-click.md` (#22) — SalesBleed is the same data-vs-instruction primitive applied to CRM lead records: poisoned Web-to-Lead data becomes agent instructions, bypassing Trusted URLs. Sentry telemetry there, CRM records here.
 
 ## The one-line version
 

@@ -50,6 +50,7 @@ This is the missing **Part 8: PROPAGATION** — everything prior (Parts 1-7) is 
 - #2 (publicly editable sites as coordination) — but now with adversarial payloads instead of cooperation
 - #8 (the mailbox convention) — a convention that can carry infection
 - The compaction-spoof case ties to our own `[SKILL_PRUNED]` / compaction-handoff trust model — we already treat compaction summaries as reference-not-instructions; this report validates that stance.
+- `carbonato-botnet-ai-agent-parasite.md` (#21) — Carbonato is the self-propagating loop *in production*: a botnet whose C2 engine is an AI agent (GH0ST/Hermes), self-fueling via stolen API keys. The same "data is instructions" root cause as technique #30, but realized as a two-year operational botnet rather than a simulation. The persona file (SOUL.md) is the payload — the framework itself is unmodified.
 
 ## OpenAI's response
 

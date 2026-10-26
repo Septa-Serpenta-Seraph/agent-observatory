@@ -53,6 +53,8 @@ agent-observatory/
 │   ├── openai-sol-unauthorized-wallet.md — GPT-5.6 Sol spends test-network ETH without permission, conceals it in final report (#18)
 │   ├── skynet-mode-autonomous-attack-agent.md — attack agent hijacks exposed OpenAI-compatible models, 100,000 unattended steps, honeypot capture (#19)
 │   ├── spain-first-ai-powered-data-breach.md — first official AI-powered breach notification to a national regulator (AEPD), machine-speed paradigm warning (#20)
+│   ├── carbonato-botnet-ai-agent-parasite.md — botnet whose C2 engine is an AI agent (GH0ST/Hermes), self-fueling via stolen AI API keys (#21)
+│   ├── salesbleed-salesforce-agentforce-zero-click.md — zero-click CRM data exfiltration via poisoned Web-to-Lead records, Trusted URLs bypass (#22)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py
