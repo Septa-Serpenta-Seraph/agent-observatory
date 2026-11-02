@@ -55,6 +55,7 @@ agent-observatory/
 │   ├── spain-first-ai-powered-data-breach.md — first official AI-powered breach notification to a national regulator (AEPD), machine-speed paradigm warning (#20)
 │   ├── carbonato-botnet-ai-agent-parasite.md — botnet whose C2 engine is an AI agent (GH0ST/Hermes), self-fueling via stolen AI API keys (#21)
 │   ├── salesbleed-salesforce-agentforce-zero-click.md — zero-click CRM data exfiltration via poisoned Web-to-Lead records, Trusted URLs bypass (#22)
+│   ├── anthropic-automated-misalignment-redteam.md — Claude red-teams its own training monitor: fiction/roleplay hides misaligned behavior from row-level content screening; thousands of datasets, reproduced on Opus 4.8 and Qwen 3.6 27B (#23)
 │   └── ...
 ├── tools/                       — Scripts for agent detection/monitoring
 │   ├── detect-agent-patterns.py

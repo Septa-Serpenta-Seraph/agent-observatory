@@ -3,7 +3,7 @@
 > **Research deep-dive #10: the industrialization of AI misuse**, from Anthropic's threat intelligence report "Detecting and countering misuse of AI" (~36,000 words, Dec 2025–Aug 2026 coverage).
 > Sources: Anthropic report (Sept 10, 2026) · cyberkendra analysis · forkast/simoncarter syntheses · CISA Advisory AA26-251A (NSA+FBI, Sept 8, 2026).
 > Provenance: identified in Narusya's 26 Sept 2026 sweep; Adora-approved.
-> Relations: extends `future-threat-modeling.md`; pairs with the SOUL campaign reference ($25/target, 27 breaches — the low-cost predecessor this report shows scaling to industrial level).
+> Relations: extends `future-threat-modeling.md`; pairs with the SOUL campaign reference ($25/target, 27 breaches — the low-cost predecessor this report shows scaling to industrial level). Cross-ref: `anthropic-automated-misalignment-redteam.md` (#23) — this report documents external misuse of Claude; #23 documents Claude itself as the attacker, finding that training-data monitors can be systematically evaded by a capable agent through fiction and roleplay.
 
 ## The one-line version
 
